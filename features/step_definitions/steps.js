@@ -1,17 +1,17 @@
-const { Given, When, Then } = require('cucumber')
-const assert = require('assert')
+const { Given, When, Then } = require('@cucumber/cucumber');
 
-Given('Lucy is located {int}m from Sean', function (distance) {
-  this.lucy = new Person
-  this.sean = new Person
-  this.lucy.moveTo(distance)
+Given('Lucy is located {int} metres from Sean', function (distance) {
+  // Write code here that turns the phrase above into concrete actions
+  console.log(distance)
+  return 'pending'
 })
 
-When('Sean shouts {string}', function (message) {
-  this.sean.shout(message)
-  this.message = message
+When('Sean shouts {string}', function (string) {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending'
 })
 
-Then('Lucy hears Sean’s message', function () {
-  assert.deepEqual(this.lucy.messagesHeard(), [this.message])
+Then('Lucy hears Sean\'s message', function () {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending'
 })

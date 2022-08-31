@@ -1,16 +1,23 @@
 {
-  "name": "shouty-js",
+  "name": "shouty",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test Application for school.cucumber.io",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js -f node_modules/cucumber-pretty"
+    "test": "cucumber-js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucumber-school/shouty-js.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cucumber-school/shouty-js/issues"
+  },
+  "homepage": "https://github.com/cucumber-school/shouty-js#readme",
   "devDependencies": {
-    "cucumber": "^6.0.5",
-    "cucumber-pretty": "^6.0.0"
+    "@cucumber/cucumber": "^8.5.2",
+    "hamjest": "^3.7.3"
   }
 }
